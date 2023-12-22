@@ -12,23 +12,24 @@ The specifications of the YOLOv8x model are shown in the table below.
 <p>Clone the Ultralytics <a href="https://github.com/mattiegisselbeck/trash-detection" rel="nofollow">yolov5</a> and <a href="https://github.com/mattiegisselbeck/trash-detection" rel="nofollow">trash-detection</a> repository.</p>
 
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content=" git clone https://github.com/mattiegisselbeck/trash-detection"><pre lang="no-highlight" class="notranslate">
-<code> git clonehttps://github.com/mattiegisselbeck/trash-detection
+<code> git clone https://github.com/mattiegisselbeck/trash-detection
 </code></pre></div>
 
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="# Clone yolov5 Repository"><pre lang="no-highlight" class="notranslate">
 <code> git clone https://github.com/ultralytics/yolov5 
 </code></pre></div>
 
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="pip install -r requirements.txt"><pre lang="no-highlight" class="notranslate">
-<code> pip install -r requirements.txt 
-</code></pre></div>
-<p>2. Create an Anaconda Environment for YOLOv8</p>
-<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="cd /Users/mattiegisselbeck/yolov5"><pre lang="no-highlight" class="notranslate">
-<code> cd /Users/mattiegisselbeck/yolov5
+<p>Create an Anaconda Environment for YOLOv8</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="conda create --name yolov8 python=3.8 # YOLOv9 requires Python 3.8"><pre lang="no-highlight" class="notranslate">
+<code> conda create --name yolov8 python=3.8 # YOLOv9 requires Python 3.8</code></pre></div>
+
+ <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="conda activate yolov8"><pre lang="no-highlight" class="notranslate">
+<code>conda activate yolov8
 </code></pre></div>
 
- <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="conda create --name yolov5 python=3.8"><pre lang="no-highlight" class="notranslate">
-<code>conda create --name yolov5 python=3.8
+<p>Install Ultralytics</p>
+ <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="pip install ultralytics"><pre lang="no-highlight" class="notranslate">
+<code>pip install ultralytics
 </code></pre></div>
 
  <a name="user-content-code"></a>
