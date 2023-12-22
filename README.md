@@ -47,5 +47,5 @@ Description
      * `train_batch*.jpg`: These .jpg(s) are visualizations of the trained images. 
 
          
-## `models`
+## models
 * `trash-detection-yolov8x.pt`: This .pt is the custom YOLOv8x model trained off the TACO dataset.
