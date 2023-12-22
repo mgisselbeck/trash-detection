@@ -47,7 +47,8 @@ The specifications of the YOLOv8x model are shown in the table below.
 ### detect
   * train
      * `results.csv`: This .csv shows the evaluation metrics of custom YOLOv8 model.
-     * `train_batch*.jpg`: These .jpg(s) are visualizations of the trained images. 
+     * `train_batch*.jpg`: These .jpg(s) are visualizations of the trained images.
+     * Other result related content can be found in this folder such as graphs, charts, and images.
 
          
 ## models
